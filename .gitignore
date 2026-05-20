@@ -1,0 +1,30 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Rust / Cargo
+target/
+
+# Maturin / wheels
+*.whl
+build/
+dist/
+
+# Local filesystem demo/test images
+*.fsimg
+*.image
+demo.fsimg
+
+# Temporary files
+*.tmp
+*.log
