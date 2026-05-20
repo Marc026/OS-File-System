@@ -1,0 +1,13 @@
+[package]
+name = "userspace_fs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "userspace_fs"
+path = "rust/src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }
+thiserror = "1.0"

@@ -1,0 +1,12 @@
+{
+  "name": "userspace-fs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "rust:check": "cargo check",
+    "py:build": "maturin develop",
+    "py:demo": "python python/demo.py",
+    "py:test": "python python/test_wrapper.py"
+  }
+}
